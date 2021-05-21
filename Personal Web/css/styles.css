@@ -1,0 +1,246 @@
+h1 {
+    color:black;
+    font-size: 5em;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 1rem;
+    margin: auto;
+    padding: auto;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+
+}
+
+.contacts{
+    margin:auto;
+    margin-top: 5rem;
+    color:AliceBlue;
+    font-family:verdana;
+    font-size:2rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    width:30%;
+    padding-left: 7rem;
+}
+
+.contacts a{
+    color:black;
+    margin-right:auto;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    
+    
+}
+
+.fa-instagram{
+    color: linear-gradient(to bottom right, rgb(103,79,201), rgb(255,125,71), rgb(233,72,103));
+}
+
+.contacts a:hover{
+    color:rgb(10,102,194);
+    text-decoration: none;
+}
+
+.typewrite {
+    margin:auto;
+    padding: auto;
+    font-family: 'Waiting for the Sunrise', cursive; 
+    font-size:2rem; 
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.5rem; 
+    color: rgba(4,89,57,1);
+    font-weight: bold;
+    display: block;
+    cursor:text;
+    transition: color 3s ease-in-out;
+}
+
+.pp{
+    padding:0;
+    position: relative;
+    display: flex; 
+    border-radius: 50%;
+    transition:all 1.5s ease;
+    cursor: pointer;
+    margin-bottom: 0;
+    transform: translate(100%, 100%);
+    border: 3.2px solid black;
+
+
+}
+
+
+.pp:hover{
+    -moz-box-shadow: 0 0 10px #000;
+      -webkit-box-shadow: 0 0 10px #000;
+      box-shadow: 0 0 10px #000;
+}
+
+.pp-descp{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.profile:hover{
+    cursor: pointer;
+}
+   
+.profile:hover .pp-descp{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+
+
+.button{
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3rem;
+    margin-right:0;
+    cursor: pointer;
+    background: linear-gradient(to left , rgb(0,47,28), rgb(232,232,232));
+    font-family: 'Indie Flower', cursive;
+    transition: all 1s ease-in-out;
+
+}
+
+#resume{
+    float:right;
+}
+
+.button:hover{
+    color: black;
+    background: rgb(232,232,232);
+    border: 3px solid rgb(0,39,24);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    
+}
+
+.nav-bar{
+    margin-top: 0%;
+    float:right;
+    right: inherit;
+    border:none;
+    display: flex;
+    flex-direction: column;
+      
+}
+
+
+
+
+.main-content{
+    margin:auto;
+    width: 30%;
+    padding: auto;
+    transition: all 3s ease-in-out;
+    margin-bottom: 2rem;
+}
+
+.head-container{
+    margin-top: 5%;
+    padding-left: auto;
+    transition: all 3s ease-in-out;
+    width:30%;
+    margin: auto;
+    padding: auto;
+    cursor: default;
+    opacity:1;
+}
+
+.copyright{
+    display: flex;
+    float: left;
+    margin: auto;
+    padding: auto;
+    position: fixed;
+    margin-left: 2rem;
+
+}
+
+.all-projects{
+    margin-left: 35rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    margin:auto;
+    width: 60%;
+    visibility: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: all 2s ease-in 300ms; 
+}
+
+.img-wrap{
+    margin-left:5rem;
+    position: relative;
+    
+}
+
+.project-img{
+    z-index: -1;
+    border-radius: 10%;
+    opacity:1;
+    transition: all 1s ease;
+    
+}
+
+.project-img:hover{
+    -moz-box-shadow: 0 0 10px #000;
+      -webkit-box-shadow: 0 0 10px #000;
+      box-shadow: 0 0 10px #000;
+}
+
+
+.img-descp{
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgb(0,47,28);
+    color: white;
+    margin-bottom: 17px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.img-wrap:hover{
+    cursor: pointer;
+}
+   
+.img-wrap:hover .img-descp{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+
+.pdf-resume{
+    margin-left:25rem;
+    visibility: visible;
+    max-height: 0px;
+    transition: all 2s ease-in-out 300ms;
+    transform: translateY(60rem);
+}
+
+
