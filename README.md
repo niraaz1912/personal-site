@@ -1,3 +1,3 @@
 # personal-site
 This is my personal site created using HTML, CSS and Javascript. 
-The web page is not responsive as of now and currently works best on 1180 x 638 dimension.
+The web page is not responsive for all devices and to view a responsive site press Ctrl + Shift + I on the webpage and select Responsive under Dimensions below the url.
